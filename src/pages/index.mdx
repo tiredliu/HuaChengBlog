@@ -10,21 +10,30 @@ import Warning from "../components/mdx/Warning.astro";
 import TimeLine from "../components/mdx/TimeLine.astro";
 import LinkCard from "../components/mdx/LinkCard.astro";
 
+
+
 <BaseLayout title="Home">
+
   <BaseCard title="Home">
+
+    <video autoplay loop muted>
+      <source src="/public/video/1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </source>
+    </video>
     <div class="flex">
       <div class="p-6">
-          # Hi there! 👋
-
-          This is the Frosti theme
-
-          A clean, elegant, and fast static blog template
+          # <span style="color: #3498;">花城萤火 的 博客</span>
+          <span style="color: #3498;">万千游戏开发者中的小小一员。</span>
       </div>
     </div>
-
   </BaseCard>
 
+
   <BaseCard title="Home" image="/index.webp">
+
+
+
 # Frosti Introduction
 
 ---
